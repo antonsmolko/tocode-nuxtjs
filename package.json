@@ -1,0 +1,42 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "My groundbreaking Nuxt.js project",
+  "author": "Anton Smolko",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/google-analytics": "^2.2.0",
+    "@nuxtjs/markdownit": "^1.2.4",
+    "@nuxtjs/yandex-metrika": "^0.1.1",
+    "babel-runtime": "^6.26.0",
+    "codemirror": "^5.46.0",
+    "cross-env": "^5.2.0",
+    "highlight.js": "^9.15.6",
+    "js-cookie": "^2.2.0",
+    "markdown-it-attrs": "^2.3.4",
+    "markdown-it-container": "^2.0.0",
+    "mavon-editor": "^2.7.4",
+    "node-gyp": "^4.0.0",
+    "npm": "^6.9.0",
+    "nuxt": "^2.4.0",
+    "tar": "^4.4.8",
+    "turndown": "^5.0.3",
+    "vm-markdown": "^0.2.9",
+    "vue-codemirror": "^4.0.6",
+    "vue-highlight.js": "^3.1.0",
+    "vue-markdown": "^2.2.4",
+    "vueditor": "^0.3.1"
+  },
+  "devDependencies": {
+    "axios": "^0.18.0",
+    "node-sass": "^4.12.0",
+    "nodemon": "^1.18.9",
+    "sass-loader": "^7.1.0"
+  }
+}
