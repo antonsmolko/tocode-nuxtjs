@@ -28,29 +28,16 @@
                     </codemirror>
                 </no-ssr>
             </div>
-            <!-- <textarea
-                v-else
-                data-input="html"
-                :value="htmlValue"
-                @input="onHandleInput"
-            ></textarea> -->
             <div class="markdown-container">
                 <div class="markdown-body" v-html="renderValue"></div>
             </div>
         </div>
         <div class="code-container">
-            
         </div>
-        
     </div>
 </template>
 
 <script>
-// import "highlight.js/styles/github.css"
-// import hljs from 'highlight.js/lib/highlight';
-// import javascript from 'highlight.js/lib/languages/javascript';
-// hljs.registerLanguage('javascript', javascript);
-
 import TurndownService from 'turndown';
 const turndownService = new TurndownService({
     headingStyle: 'atx'

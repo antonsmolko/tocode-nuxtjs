@@ -19,9 +19,6 @@ export const mutations = {
     EDIT_POST (state, postEdit) {
         state.postsLoaded = state.postsLoaded.map(post => post.id === postEdit.id ? postEdit : post);
     },
-    // ADD_COMMENT (state, comment) {
-    //     state.commentsLoaded.push(comment);
-    // },
     SET_TOKEN (state, token) {
         state.token = token;
     },
